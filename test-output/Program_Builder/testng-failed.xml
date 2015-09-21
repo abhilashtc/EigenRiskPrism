@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Program_Builder]" parallel="tests">
+  <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+  <test name="Open Program Builder(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+        <methods>
+          <include name="PB_OpenProgramBuilder"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Program_Builder -->
+    </classes>
+  </test> <!-- Open Program Builder(failed) -->
+  <test name="Validate Deleted Program Exist On Source(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+        <methods>
+          <include name="ValidateDeletedProgramExistOnSource"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Program_Builder -->
+    </classes>
+  </test> <!-- Validate Deleted Program Exist On Source(failed) -->
+  <test name="QA User One(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+        <methods>
+          <include name="PB_OpenProgramBuilder"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Program_Builder -->
+    </classes>
+  </test> <!-- QA User One(failed) -->
+</suite> <!-- Failed suite [Program_Builder] -->

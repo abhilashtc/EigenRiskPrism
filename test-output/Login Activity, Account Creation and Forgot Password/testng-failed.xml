@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Login Activity, Account Creation and Forgot Password]" parallel="tests">
+  <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+  <test name="Create Account with Valid Last Name(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.LoginPage_CreateAccount">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="input_ValidLastName"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_CreateAccount -->
+      <class name="com.eigenRisk.TestSuite.LoginPage_ForgotPassword">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_ForgotPassword -->
+      <class name="com.eigenRisk.TestSuite.LoginPage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage -->
+    </classes>
+  </test> <!-- Create Account with Valid Last Name(failed) -->
+  <test name="Create Account with Registered but not Activated Account(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.LoginPage_CreateAccount">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="CreateAccount_Registered_But_Not_ActivatedEmailID"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_CreateAccount -->
+      <class name="com.eigenRisk.TestSuite.LoginPage_ForgotPassword">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_ForgotPassword -->
+      <class name="com.eigenRisk.TestSuite.LoginPage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage -->
+    </classes>
+  </test> <!-- Create Account with Registered but not Activated Account(failed) -->
+  <test name="Create Account with unregistered Email(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.LoginPage_CreateAccount">
+        <methods>
+          <include name="input_UnRegisteredEmail"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_CreateAccount -->
+      <class name="com.eigenRisk.TestSuite.LoginPage_ForgotPassword">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_ForgotPassword -->
+      <class name="com.eigenRisk.TestSuite.LoginPage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage -->
+    </classes>
+  </test> <!-- Create Account with unregistered Email(failed) -->
+</suite> <!-- Failed suite [Login Activity, Account Creation and Forgot Password] -->

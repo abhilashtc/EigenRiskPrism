@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Load Exposure" parallel="tests" thread-count="1">
+  <test name="Load Exposure - Excel">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Load">
+		<methods>
+			<include name="loadExposure_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Load Exposure - CSV">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Load">
+		<methods>
+			<include name="loadExposure_CSV" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Delete Single Exposure">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Load">
+		<methods>
+			<include name="load_DeleteSingleExposure" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Check Accumulation Summary for 2011">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Load">
+		<methods>
+			<include name="loadExposure_CheckAccumulationSummary_2011" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

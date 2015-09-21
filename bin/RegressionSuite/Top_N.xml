@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Top N" parallel="tests" thread-count="1">
+  <test name="Top N -  Check Default Measures">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_CheckDefaultMeasures" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N -  Add Single Measure">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_AddSingleMeasure" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Add Multiple Measures">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_AddMultipleMeasures" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Add Multiple Measures One by One">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_AddMultipleMeasuresOneByOne" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  
+  <test name="Top N - Add All Measures">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_AddAllMeasures" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Remove Single Measure">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_RemoveSingleMeasure" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Remove Multiple Measures">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_RemoveMultipleMeasures" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Remove Multiple Measures One By One">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_RemoveMultipleMeasuresOneByOne" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Remove All Measures">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="topN_RemoveAllMeasures" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Set Top N Digit">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="setTopNDigit" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Top N - Validate Top 10">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_List">
+		<methods>
+			<include name="validateTop10" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+
+</suite>

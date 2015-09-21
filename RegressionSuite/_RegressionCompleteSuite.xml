@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EigenRisk Regression Suite">
+     <suite-files>
+        
+		<!--
+		<suite-file name="Import Exposure" path="./ImportExposure.xml" />
+		<suite-file name="Load Exposure" path="./LoadExposure.xml" />	
+		-->
+		<suite-file name="Login Activity, Account Creation and Forgot Password" path="./LoginActivity_AccountCreation_ForgotPassword.xml" />
+		<suite-file name="Program Builder" path="./ProgramBuilder.xml" />	
+		<suite-file name="Damage Model Manager" path="./DamageModelManager.xml" />	
+		<!--
+		<suite-file name="Time Travel" path="./TimeTravel.xml" />
+		<suite-file name="Top N" path="./Top_N.xml" />	
+		<suite-file name="Top N" path="./WriteTestResults.xml" />	
+		-->
+     </suite-files>
+</suite>

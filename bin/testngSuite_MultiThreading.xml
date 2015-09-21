@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Multi Threading">
+     <suite-files>
+	 <!-- 10 Users
+        <suite-file path="./MultiThreading-10Users_LoginActivity.xml" />
+		<suite-file path="./MultiThreading-10Users_Import_15K_DemoData.xml" />
+		<suite-file path="./MultiThreading-10Users_Import_1_MillionCSV.xml" />
+		<suite-file path="./MultiThreading-10Users_Load_15K_DemoData.xml" />
+		
+		<suite-file path="./MultiThreading-4_Users.xml" />
+	 -->
+	 
+	 <!-- 5 Users
+	    <suite-file path="./MultiThreading-5-Users_LoginActivity.xml" />
+		<suite-file path="./MultiThreading-5-Users_Import_15K_DemoData.xml" />
+		<suite-file path="./MultiThreading-5-Users_Import_1_MillionCSV.xml" />
+		<suite-file path="./MultiThreading-5-Users_Load_15K_DemoData.xml" />
+	 -->
+		<suite-file path="./MultiThreading-5-Users_Import_15K_DemoData.xml" />
+     </suite-files>
+</suite>

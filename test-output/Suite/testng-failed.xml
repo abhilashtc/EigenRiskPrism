@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="methods">
+  <test name="EigenriskPrism-SmokeTestSuite(failed)" parallel="methods">
+    <classes>
+      <class name="com.eigenRisk.TestSuite.LoginPage_CreateAccount">
+        <methods>
+          <include name="input_PasswordMismatch"/>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_CreateAccount -->
+      <class name="com.eigenRisk.TestSuite.LoginPage_ForgotPassword">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage_ForgotPassword -->
+      <class name="com.eigenRisk.TestSuite.Exposure_Import">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Exposure_Import -->
+      <class name="com.eigenRisk.TestSuite.LoginPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.LoginPage -->
+    </classes>
+  </test> <!-- EigenriskPrism-SmokeTestSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

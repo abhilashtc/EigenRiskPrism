@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [10 User Login Activity]" parallel="tests">
+  <parameter name="userName" value="qa_user10@eigenrisk.com"/>
+  <test name="QA User Two(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user2@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Two(failed) -->
+  <test name="QA User Ten(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user10@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Ten(failed) -->
+  <test name="QA User Four(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user4@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Four(failed) -->
+  <test name="QA User Nine(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user9@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Nine(failed) -->
+  <test name="QA User Five(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user5@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Five(failed) -->
+  <test name="QA User Seven(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user7@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Seven(failed) -->
+  <test name="QA User Three(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user3@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Three(failed) -->
+  <test name="QA User One(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User One(failed) -->
+  <test name="QA User Eight(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user8@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Eight(failed) -->
+  <test name="QA User Six(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user6@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Six(failed) -->
+</suite> <!-- Failed suite [10 User Login Activity] -->

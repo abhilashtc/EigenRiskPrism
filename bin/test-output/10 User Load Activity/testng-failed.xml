@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [10 User Load Activity]" parallel="tests">
+  <parameter name="userName" value="qa_user2@eigenrisk.com"/>
+  <parameter name="exposureToLoad" value="TestData/Karthika_Global_Demo_Data V 0 8.xlsx"/>
+  <test name="QA User One(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <parameter name="exposureToLoad" value="TestData/Karthika_Global_Demo_Data V 0 8.xlsx"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="importExposure_ValidFile_Excel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User One(failed) -->
+  <test name="QA User Two(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user2@eigenrisk.com"/>
+    <parameter name="exposureToLoad" value="TestData/Karthika_Global_Demo_Data V 0 8.xlsx"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="importExposure_ValidFile_Excel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Two(failed) -->
+</suite> <!-- Failed suite [10 User Load Activity] -->

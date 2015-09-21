@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Program Builder" parallel="tests" thread-count="1">
+  <test name="Open Program Builder">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="PB_OpenProgramBuilder" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="AddLayer">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="AddLayer" />
+		</methods>
+	  </class>
+    </classes>
+  </test> 
+  <test name="ShareProgram">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="ShareProgram" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Validate Shared Program">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="ValidateSharedProgram" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Delete Program">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="DeleteProgram" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Validate Deleted Program is not deleted from Source User">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="ValidateDeletedProgramExistOnSource" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="DetailView">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Program_Builder">
+		<methods>
+			<include name="DetailView" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

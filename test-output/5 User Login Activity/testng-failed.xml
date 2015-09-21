@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [5 User Login Activity]" parallel="tests">
+  <parameter name="userName" value="qa_user5@eigenrisk.com"/>
+  <test name="QA User Four(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user4@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="loginActivity" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Four(failed) -->
+</suite> <!-- Failed suite [5 User Login Activity] -->

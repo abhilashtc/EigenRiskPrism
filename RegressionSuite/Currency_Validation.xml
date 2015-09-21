@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Currency Validation" parallel="tests" thread-count="1">
+  <test name="Evaluate TIV For Each Assets">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="EvaluateTIV_ForEachAsset" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate TopN Assets">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="EvaluateTopN_Assets" />
+		</methods>
+	  </class>
+    </classes>
+  </test> 
+  <test name="Evaluate Currency Conversion For CAD">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="EvaluateCurrencyConversionFor_CAD" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate Currency Conversion For EUR">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="EvaluateCurrencyConversionFor_EUR" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate Currency Conversion For USD">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="EvaluateCurrencyConversionFor_USD" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate Currency Conversion For BBD">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="EvaluateCurrencyConversionFor_BBD" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Check Countries Listed In Contribution Widget">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="CheckCountriesListedInContributionWidget" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate TIV and AssetNum 51 Records Today">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="Evaluate_TIV_and_AssetNum_51_Records_Today" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+ 
+  <test name="Evaluate TIV and AssetNum 51 Records 2011">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="Evaluate_TIV_and_AssetNum_51_Records_2011" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate TIV and AssetNum 51 Records 2012">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="Evaluate_TIV_and_AssetNum_51_Records_2012" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate TIV and AssetNum 51 Records 2013">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="Evaluate_TIV_and_AssetNum_51_Records_2013" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Evaluate TIV and AssetNum 51 Records 2014">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+		<methods>
+			<include name="Evaluate_TIV_and_AssetNum_51_Records_2014" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

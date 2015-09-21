@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Time Travel]" parallel="tests">
+  <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+  <test name="Time Travel - 2012(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="accumulationSummary_2012"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Accumulation_Summary -->
+    </classes>
+  </test> <!-- Time Travel - 2012(failed) -->
+  <test name="Time Travel - 2013(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="accumulationSummary_2013"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Accumulation_Summary -->
+    </classes>
+  </test> <!-- Time Travel - 2013(failed) -->
+  <test name="Time Travel - 2015(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="accumulationSummary_2015"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite.Accumulation_Summary -->
+    </classes>
+  </test> <!-- Time Travel - 2015(failed) -->
+</suite> <!-- Failed suite [Time Travel] -->

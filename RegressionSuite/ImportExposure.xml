@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Import Exposure" parallel="tests" thread-count="1">
+  <test name="Import Exposure Valid Excel File">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Import">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="import Exposure 50MB Valid Excel File">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Import">
+		<methods>
+			<include name="importExposure_50MB_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Import Exposure Valid CSV File">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Import">
+		<methods>
+			<include name="importExposure_ValidFile_CSV" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Import Exposure Invalid CSV File">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Exposure_Import">
+		<methods>
+			<include name="importExposure_InvalidFile_CSV" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

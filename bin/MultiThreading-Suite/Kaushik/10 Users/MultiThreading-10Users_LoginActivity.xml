@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="10 User Login Activity" parallel="tests" thread-count="10">
+  <test name="QA User Twenty One">
+    <parameter name="userName" value="qa_user21@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Two">
+    <parameter name="userName" value="qa_user22@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Three">
+    <parameter name="userName" value="qa_user23@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Four">
+    <parameter name="userName" value="qa_user24@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+    <test name="QA User Twenty Five">
+    <parameter name="userName" value="qa_user25@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Six">
+    <parameter name="userName" value="qa_user26@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Seven">
+    <parameter name="userName" value="qa_user27@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Eight">
+    <parameter name="userName" value="qa_user28@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Twenty Nine">
+    <parameter name="userName" value="qa_user29@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+    <test name="QA User Thirty">
+    <parameter name="userName" value="qa_user30@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="loginActivity" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Damage Model Manager" parallel="tests" thread-count="1">
+  <test name="Navigating To DMM And Check Damage Model and Damage Function">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="NavigatingToDMM_And_CheckDamageModel_and_DamageFunction" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Save Damage Model With Blank Name">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="SaveDamageModelWithBlankName" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Add Damage Model With Name">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddDamageModelWithName" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Add Damage Model With Existing Model Name">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddDamageModelWithExistingModelName" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Edit Damage Model">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="EditDamageModel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Add Damage Function Zero">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddDamageFunctionZero" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Add Damage Function One">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddDamageFunctionOne" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Edit Damage Function Number For One To Three">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="EditDamageFunctionNumberForOneToThree" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Edit Damage Model Add Graph With Valid Data">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="EditDamageModelAddGraphWithValidData" />
+		</methods>
+	  </class>
+    </classes>
+  </test>    
+  <test name="Edit Damage Model Add Graph With InValid Data">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="EditDamageModelAddGraphWithInValidData" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  
+  <test name="Delete Damage Function">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="DeleteDamageFunction" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="AddingMoreGraphRows">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddingMoreGraphRows" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Adding More Graph Rows with 1 Mean 0 STD">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddingMoreGraphRows_with_1_Mean_0_STD" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Copy Paste Graph Data From Excel">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="CopyPasteGraphDataFromExcel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+  <test name="Adding Duplicate Graph Rows">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="AddingDuplicateGraphRows" />
+		</methods>
+	  </class>
+    </classes>
+  </test> 
+  <test name="Delete Damage Model">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Damage_ModelManager">
+		<methods>
+			<include name="DeleteDamageModel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>   
+</suite>

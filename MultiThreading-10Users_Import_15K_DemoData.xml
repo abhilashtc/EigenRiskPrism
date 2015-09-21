@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="10 User Import Activity" parallel="tests" thread-count="1">
+  <test name="QA User One">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Two">
+    <parameter name="userName" value="qa_user2@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Three">
+    <parameter name="userName" value="qa_user3@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Four">
+    <parameter name="userName" value="qa_user4@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+    <test name="QA User Five">
+    <parameter name="userName" value="qa_user5@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Six">
+    <parameter name="userName" value="qa_user6@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Seven">
+    <parameter name="userName" value="qa_user7@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Eight">
+    <parameter name="userName" value="qa_user8@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="QA User Nine">
+    <parameter name="userName" value="qa_user9@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+    <test name="QA User Ten">
+    <parameter name="userName" value="qa_user10@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+		<methods>
+			<include name="importExposure_ValidFile_Excel" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

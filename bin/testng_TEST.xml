@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Optional test Suite" parallel="methods" thread-count ="1">
+  <test name="Optional Test one">
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.ParameterTest">
+		<methods>
+			<include name="insideTest3" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Optional Test two">
+    <parameter name="userName" value="abhilash.tc@gmail.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.ParameterTest">
+	    <methods>
+			<include name="insideTest3" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+</suite>
+
+<!--
+<suite name="Optional test Suite" verbose="1" parallel="methods" thread-count ="5">
+  <test name="Optional Test one">
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.ParameterTest" />
+    </classes>
+  </test>
+  <test name="Optional Test two">
+    <parameter name="optional-value" value="passed from XML" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.ParameterTest" />
+    </classes>
+  </test>
+</suite>
+-->
+
+
+<!--
+  <test name="Multi-Threading - Login Activity (10 Concurrent Users)">
+    <classes>
+      <class name="com.eigenRisk.TestSuite.LoginPage_CreateAccount"/>
+	  <class name="com.eigenRisk.TestSuite.LoginPage_ForgotPassword"/>
+	  <class name="com.eigenRisk.TestSuite.LoginPage"/>
+	  <class name="com.eigenRisk.TestSuite.Exposure_Import"/>
+    </classes>
+  </test>
+-->

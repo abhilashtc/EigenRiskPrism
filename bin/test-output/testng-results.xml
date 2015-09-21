@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" total="12" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Currency Validation" duration-ms="451286" started-at="2015-09-18T07:29:22Z" finished-at="2015-09-18T07:36:53Z">
+    <groups>
+    </groups>
+    <test name="Evaluate TIV For Each Assets" duration-ms="101835" started-at="2015-09-18T07:29:22Z" finished-at="2015-09-18T07:31:04Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5ba23b66]" name="beforeTest" is-config="true" duration-ms="22" started-at="2015-09-18T12:59:22Z" finished-at="2015-09-18T12:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5ba23b66]" name="openBrowser" is-config="true" duration-ms="24190" started-at="2015-09-18T12:59:22Z" finished-at="2015-09-18T12:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="EvaluateTIV_ForEachAsset()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5ba23b66]" name="EvaluateTIV_ForEachAsset" duration-ms="64121" started-at="2015-09-18T12:59:46Z" finished-at="2015-09-18T13:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateTIV_ForEachAsset -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5ba23b66]" name="closeBrowser" is-config="true" duration-ms="13484" started-at="2015-09-18T13:00:50Z" finished-at="2015-09-18T13:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5ba23b66]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:01:04Z" finished-at="2015-09-18T13:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TIV For Each Assets -->
+    <test name="Evaluate TopN Assets" duration-ms="16311" started-at="2015-09-18T07:31:04Z" finished-at="2015-09-18T07:31:20Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@36d64342]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:01:04Z" finished-at="2015-09-18T13:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@36d64342]" name="openBrowser" is-config="true" duration-ms="8229" started-at="2015-09-18T13:01:04Z" finished-at="2015-09-18T13:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="EvaluateTopN_Assets()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@36d64342]" name="EvaluateTopN_Assets" duration-ms="4008" started-at="2015-09-18T13:01:12Z" finished-at="2015-09-18T13:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateTopN_Assets -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@36d64342]" name="closeBrowser" is-config="true" duration-ms="4073" started-at="2015-09-18T13:01:16Z" finished-at="2015-09-18T13:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@36d64342]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:01:20Z" finished-at="2015-09-18T13:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TopN Assets -->
+    <test name="Evaluate Currency Conversion For CAD" duration-ms="86777" started-at="2015-09-18T07:31:20Z" finished-at="2015-09-18T07:32:47Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@19dfb72a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:01:20Z" finished-at="2015-09-18T13:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@19dfb72a]" name="openBrowser" is-config="true" duration-ms="7951" started-at="2015-09-18T13:01:20Z" finished-at="2015-09-18T13:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="EvaluateCurrencyConversionFor_CAD()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@19dfb72a]" name="EvaluateCurrencyConversionFor_CAD" duration-ms="78821" started-at="2015-09-18T13:01:28Z" finished-at="2015-09-18T13:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateCurrencyConversionFor_CAD -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@19dfb72a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-09-18T13:02:47Z" finished-at="2015-09-18T13:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@19dfb72a]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:02:47Z" finished-at="2015-09-18T13:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate Currency Conversion For CAD -->
+    <test name="Evaluate Currency Conversion For EUR" duration-ms="22893" started-at="2015-09-18T07:32:47Z" finished-at="2015-09-18T07:33:10Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6fadae5d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:02:47Z" finished-at="2015-09-18T13:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6fadae5d]" name="openBrowser" is-config="true" duration-ms="18181" started-at="2015-09-18T13:02:47Z" finished-at="2015-09-18T13:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="EvaluateCurrencyConversionFor_EUR()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6fadae5d]" name="EvaluateCurrencyConversionFor_EUR" duration-ms="140" started-at="2015-09-18T13:03:05Z" finished-at="2015-09-18T13:03:06Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 138 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 438cb136-7e4a-420c-b81c-5b0956557056
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 138 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 438cb136-7e4a-420c-b81c-5b0956557056
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.functionalities.TopN_DataValidation.evaluateLocalCurrency(TopN_DataValidation.java:286)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.EvaluateCurrencyConversionFor_EUR(Top_N_DataValidation.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1244589583431780496webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1244589583431780496webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1244589583431780496webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1244589583431780496webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1244589583431780496webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateCurrencyConversionFor_EUR -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6fadae5d]" name="closeBrowser" is-config="true" duration-ms="4037" started-at="2015-09-18T13:03:06Z" finished-at="2015-09-18T13:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6fadae5d]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:03:10Z" finished-at="2015-09-18T13:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate Currency Conversion For EUR -->
+    <test name="Evaluate Currency Conversion For USD" duration-ms="15895" started-at="2015-09-18T07:33:10Z" finished-at="2015-09-18T07:33:26Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@3796751b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:03:10Z" finished-at="2015-09-18T13:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@3796751b]" name="openBrowser" is-config="true" duration-ms="11764" started-at="2015-09-18T13:03:10Z" finished-at="2015-09-18T13:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="EvaluateCurrencyConversionFor_USD()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@3796751b]" name="EvaluateCurrencyConversionFor_USD" duration-ms="21" started-at="2015-09-18T13:03:22Z" finished-at="2015-09-18T13:03:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 624e8bad-cd31-4265-a84e-33b260b39b28
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 624e8bad-cd31-4265-a84e-33b260b39b28
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.functionalities.TopN_DataValidation.evaluateLocalCurrency(TopN_DataValidation.java:286)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.EvaluateCurrencyConversionFor_USD(Top_N_DataValidation.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous76476038490325811webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous76476038490325811webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous76476038490325811webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous76476038490325811webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous76476038490325811webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateCurrencyConversionFor_USD -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@3796751b]" name="closeBrowser" is-config="true" duration-ms="4104" started-at="2015-09-18T13:03:22Z" finished-at="2015-09-18T13:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@3796751b]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:03:26Z" finished-at="2015-09-18T13:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate Currency Conversion For USD -->
+    <test name="Evaluate Currency Conversion For BBD" duration-ms="12945" started-at="2015-09-18T07:33:26Z" finished-at="2015-09-18T07:33:39Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@edf4efb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:03:26Z" finished-at="2015-09-18T13:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@edf4efb]" name="openBrowser" is-config="true" duration-ms="8618" started-at="2015-09-18T13:03:26Z" finished-at="2015-09-18T13:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="EvaluateCurrencyConversionFor_BBD()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@edf4efb]" name="EvaluateCurrencyConversionFor_BBD" duration-ms="209" started-at="2015-09-18T13:03:35Z" finished-at="2015-09-18T13:03:35Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 208 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2baa317b-37b1-40c8-b9a6-6c2f37c08682
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 208 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2baa317b-37b1-40c8-b9a6-6c2f37c08682
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.functionalities.TopN_DataValidation.evaluateLocalCurrency(TopN_DataValidation.java:286)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.EvaluateCurrencyConversionFor_BBD(Top_N_DataValidation.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous3743355349560188861webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous3743355349560188861webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous3743355349560188861webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous3743355349560188861webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous3743355349560188861webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvaluateCurrencyConversionFor_BBD -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@edf4efb]" name="closeBrowser" is-config="true" duration-ms="4092" started-at="2015-09-18T13:03:35Z" finished-at="2015-09-18T13:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@edf4efb]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:03:39Z" finished-at="2015-09-18T13:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate Currency Conversion For BBD -->
+    <test name="Check Countries Listed In Contribution Widget" duration-ms="57712" started-at="2015-09-18T07:33:39Z" finished-at="2015-09-18T07:34:37Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@22f71333]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-09-18T13:03:39Z" finished-at="2015-09-18T13:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@22f71333]" name="openBrowser" is-config="true" duration-ms="8225" started-at="2015-09-18T13:03:39Z" finished-at="2015-09-18T13:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="CheckCountriesListedInContributionWidget()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@22f71333]" name="CheckCountriesListedInContributionWidget" duration-ms="49484" started-at="2015-09-18T13:03:47Z" finished-at="2015-09-18T13:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCountriesListedInContributionWidget -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@22f71333]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2015-09-18T13:04:37Z" finished-at="2015-09-18T13:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@22f71333]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:04:37Z" finished-at="2015-09-18T13:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Check Countries Listed In Contribution Widget -->
+    <test name="Evaluate TIV and AssetNum 51 Records Today" duration-ms="57760" started-at="2015-09-18T07:34:37Z" finished-at="2015-09-18T07:35:34Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@21bcffb5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:04:37Z" finished-at="2015-09-18T13:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@21bcffb5]" name="openBrowser" is-config="true" duration-ms="9994" started-at="2015-09-18T13:04:37Z" finished-at="2015-09-18T13:04:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Evaluate_TIV_and_AssetNum_51_Records_Today()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@21bcffb5]" name="Evaluate_TIV_and_AssetNum_51_Records_Today" duration-ms="47764" started-at="2015-09-18T13:04:47Z" finished-at="2015-09-18T13:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Evaluate_TIV_and_AssetNum_51_Records_Today -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@21bcffb5]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:05:34Z" finished-at="2015-09-18T13:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@21bcffb5]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2015-09-18T13:05:34Z" finished-at="2015-09-18T13:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TIV and AssetNum 51 Records Today -->
+    <test name="Evaluate TIV and AssetNum 51 Records 2011" duration-ms="31685" started-at="2015-09-18T07:35:34Z" finished-at="2015-09-18T07:36:06Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6b2fad11]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:05:34Z" finished-at="2015-09-18T13:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6b2fad11]" name="openBrowser" is-config="true" duration-ms="27050" started-at="2015-09-18T13:05:34Z" finished-at="2015-09-18T13:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="Evaluate_TIV_and_AssetNum_51_Records_2011()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6b2fad11]" name="Evaluate_TIV_and_AssetNum_51_Records_2011" duration-ms="253" started-at="2015-09-18T13:06:02Z" finished-at="2015-09-18T13:06:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 252 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: afa3c29b-6f45-469f-801a-8cf4275b6486
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 252 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: afa3c29b-6f45-469f-801a-8cf4275b6486
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.Evaluate_TIV_and_AssetNum_51_Records_2011(Top_N_DataValidation.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1733539330017555226webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1733539330017555226webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1733539330017555226webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1733539330017555226webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous1733539330017555226webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Evaluate_TIV_and_AssetNum_51_Records_2011 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6b2fad11]" name="closeBrowser" is-config="true" duration-ms="4380" started-at="2015-09-18T13:06:02Z" finished-at="2015-09-18T13:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@6b2fad11]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:06:06Z" finished-at="2015-09-18T13:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TIV and AssetNum 51 Records 2011 -->
+    <test name="Evaluate TIV and AssetNum 51 Records 2012" duration-ms="19934" started-at="2015-09-18T07:36:06Z" finished-at="2015-09-18T07:36:26Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@26ba2a48]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-09-18T13:06:06Z" finished-at="2015-09-18T13:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@26ba2a48]" name="openBrowser" is-config="true" duration-ms="15724" started-at="2015-09-18T13:06:06Z" finished-at="2015-09-18T13:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="Evaluate_TIV_and_AssetNum_51_Records_2012()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@26ba2a48]" name="Evaluate_TIV_and_AssetNum_51_Records_2012" duration-ms="24" started-at="2015-09-18T13:06:22Z" finished-at="2015-09-18T13:06:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3318946-4cf4-49cc-9e67-a3d5e057a10b
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b3318946-4cf4-49cc-9e67-a3d5e057a10b
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.Evaluate_TIV_and_AssetNum_51_Records_2012(Top_N_DataValidation.java:375)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous4888183520952763406webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous4888183520952763406webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous4888183520952763406webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous4888183520952763406webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous4888183520952763406webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Evaluate_TIV_and_AssetNum_51_Records_2012 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@26ba2a48]" name="closeBrowser" is-config="true" duration-ms="4181" started-at="2015-09-18T13:06:22Z" finished-at="2015-09-18T13:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@26ba2a48]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:06:26Z" finished-at="2015-09-18T13:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TIV and AssetNum 51 Records 2012 -->
+    <test name="Evaluate TIV and AssetNum 51 Records 2013" duration-ms="14687" started-at="2015-09-18T07:36:26Z" finished-at="2015-09-18T07:36:41Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@17550481]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:06:26Z" finished-at="2015-09-18T13:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@17550481]" name="openBrowser" is-config="true" duration-ms="10646" started-at="2015-09-18T13:06:26Z" finished-at="2015-09-18T13:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="Evaluate_TIV_and_AssetNum_51_Records_2013()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@17550481]" name="Evaluate_TIV_and_AssetNum_51_Records_2013" duration-ms="17" started-at="2015-09-18T13:06:37Z" finished-at="2015-09-18T13:06:37Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3e568871-844d-444a-a291-74b7f92f4131
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3e568871-844d-444a-a291-74b7f92f4131
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.Evaluate_TIV_and_AssetNum_51_Records_2013(Top_N_DataValidation.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous465874883987317177webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous465874883987317177webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous465874883987317177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous465874883987317177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous465874883987317177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Evaluate_TIV_and_AssetNum_51_Records_2013 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@17550481]" name="closeBrowser" is-config="true" duration-ms="4020" started-at="2015-09-18T13:06:37Z" finished-at="2015-09-18T13:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@17550481]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:06:41Z" finished-at="2015-09-18T13:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TIV and AssetNum 51 Records 2013 -->
+    <test name="Evaluate TIV and AssetNum 51 Records 2014" duration-ms="12565" started-at="2015-09-18T07:36:41Z" finished-at="2015-09-18T07:36:53Z">
+      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5315b42e]" name="openBrowser" is-config="true" duration-ms="8246" started-at="2015-09-18T13:06:41Z" finished-at="2015-09-18T13:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5315b42e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:06:41Z" finished-at="2015-09-18T13:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="Evaluate_TIV_and_AssetNum_51_Records_2014()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5315b42e]" name="Evaluate_TIV_and_AssetNum_51_Records_2014" duration-ms="188" started-at="2015-09-18T13:06:49Z" finished-at="2015-09-18T13:06:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 187 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e640d224-4378-4f22-9b38-5c7c9758680a
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+Command duration or timeout: 187 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e640d224-4378-4f22-9b38-5c7c9758680a
+*** Element info: {Using=xpath, value=(//span[@class='accumulationSummaryDetail ng-binding'])[2]}
+	at sun.reflect.GeneratedConstructorAccessor27.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.eigenRisk.TestSuite.Top_N_DataValidation.Evaluate_TIV_and_AssetNum_51_Records_2014(Top_N_DataValidation.java:438)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//span[@class='accumulationSummaryDetail ng-binding'])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Abhilash', ip: '192.168.86.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous2661745188593849888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous2661745188593849888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10280)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous2661745188593849888webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous2661745188593849888webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12279)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ABHILA~1/AppData/Local/Temp/anonymous2661745188593849888webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12221)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Evaluate_TIV_and_AssetNum_51_Records_2014 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5315b42e]" name="closeBrowser" is-config="true" duration-ms="4128" started-at="2015-09-18T13:06:49Z" finished-at="2015-09-18T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.eigenRisk.TestSuite.Top_N_DataValidation@5315b42e]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-09-18T13:06:53Z" finished-at="2015-09-18T13:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+    </test> <!-- Evaluate TIV and AssetNum 51 Records 2014 -->
+  </suite> <!-- Currency Validation -->
+</testng-results>

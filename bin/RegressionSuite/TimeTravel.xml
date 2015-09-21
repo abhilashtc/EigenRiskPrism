@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
+<suite name="Time Travel" parallel="tests" thread-count="1">
+  <test name="Time Travel - 2011">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+		<methods>
+			<include name="accumulationSummary_2011" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Time Travel - 2012">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+		<methods>
+			<include name="accumulationSummary_2012" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Time Travel - 2013">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+		<methods>
+			<include name="accumulationSummary_2013" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Time Travel - 2014">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+		<methods>
+			<include name="accumulationSummary_2014" />
+		</methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Time Travel - 2015">
+    <parameter name="userName" value="qa_user1@eigenrisk.com" />
+    <classes>
+      <class name="com.eigenRisk.TestSuite.Accumulation_Summary">
+		<methods>
+			<include name="accumulationSummary_2015" />
+		</methods>
+	  </class>
+    </classes>
+  </test>  
+</suite>

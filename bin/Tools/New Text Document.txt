@@ -1,0 +1,3 @@
+Thread.sleep(2000);
+Runtime.getRuntime().exec("./Tools/LoadExposureDetails.exe");
+Thread.sleep(3000);

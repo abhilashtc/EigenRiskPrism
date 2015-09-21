@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [10 User Import Activity]" parallel="tests">
+  <parameter name="userName" value="qa_user5@eigenrisk.com"/>
+  <test name="QA User One(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user1@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="importExposure_1MillionCSV" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User One(failed) -->
+  <test name="QA User Four(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user4@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="importExposure_1MillionCSV" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Four(failed) -->
+  <test name="QA User Five(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user5@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="importExposure_1MillionCSV" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Five(failed) -->
+  <test name="QA User Three(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user3@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="importExposure_1MillionCSV" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Three(failed) -->
+  <test name="QA User Two(failed)" parallel="tests">
+    <parameter name="userName" value="qa_user2@eigenrisk.com"/>
+    <classes>
+      <class name="com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login">
+        <methods>
+          <include name="importExposure_1MillionCSV" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.eigenRisk.TestSuite_MultiThreading.MultiThreading_Login -->
+    </classes>
+  </test> <!-- QA User Two(failed) -->
+</suite> <!-- Failed suite [10 User Import Activity] -->
