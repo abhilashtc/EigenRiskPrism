@@ -1,7 +1,9 @@
 package com.eigenRisk.Utilities;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Iterator;
@@ -21,6 +23,7 @@ import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
 public class CommonUtilities {
 	public static String currentAccuTIV;
+	public static boolean elementExist;
 
 	public static void takeScreenShot(WebDriver driver, String targetFile) throws Exception {
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -50,6 +53,8 @@ public class CommonUtilities {
 	String selectExposureXpath = readElement("locatorPaths.properties","selectExposureXpath");
 	*/
 	public static String readElement(String fileName, String fieldName) throws Exception {
+		if(fileName.equals(""))
+			fileName = "locatorPaths.properties";
 		FileReader propertyFile = new FileReader(fileName);
 		Properties configProperty = new Properties();
 		configProperty.load(propertyFile);
@@ -59,6 +64,30 @@ public class CommonUtilities {
 		
 	}
 
+	
+	public static void setExposurePath(String exposureFile) throws Exception {
+		File currentDirFile = new File(".");
+		String exposureLoc = currentDirFile.getAbsolutePath();
+		exposureLoc = exposureLoc + "TestData\\" + exposureFile;
+		
+		System.out.println("Exposure Loc is - " + exposureLoc);
+		exposureLoc = exposureLoc.replace(".", "");
+		
+		if(exposureLoc.contains("zip"))
+			exposureLoc = exposureLoc.replace("zip", ".zip");
+		else if(exposureLoc.contains("xls"))
+			exposureLoc = exposureLoc.replace("xls", ".xls");
+		else if(exposureLoc.contains("xlsx"))
+			exposureLoc = exposureLoc.replace("xlsx", ".xlsx");
+		else if(exposureLoc.contains("csv"))
+			exposureLoc = exposureLoc.replace("csv", ".csv");
+		
+		exposureLoc = exposureLoc.replace("/", "\\");
+		BufferedWriter out = new BufferedWriter(new FileWriter("C:/TestRun/FileToOpen.txt")); 
+		out.write(exposureLoc); 
+		out.close();
+		System.out.println("Exposure to be imported is > " + exposureLoc);
+	}
 	
 	public static String getNotificationText(WebDriver driver) {
 		Boolean present;
@@ -95,12 +124,14 @@ public class CommonUtilities {
 				if (ctr > 200) {
 					System.out.println("Wait for Element Timed Out!!!");
 					System.out.println("Element XPath -> " + elementXPath);
+					elementExist = false;
 					break;
 				}
 				//driver.findElement(By.xpath("elementXPath"));
 				Boolean isPresent = driver.findElements(By.xpath(elementXPath)).size() > 0;
 				if (isPresent) {
 					System.out.println("Element Visible... " + elementXPath);
+					elementExist = true;
 					break;
 				}
 				

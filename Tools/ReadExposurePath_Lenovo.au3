@@ -25,12 +25,13 @@ _AU3RecordSetup()
 #include <MsgBoxConstants.au3>
 
 ReadExposurePath()
-_WinWaitActivate("File Upload","Namespace Tree Contr")
-;MouseClick("left",315,450,1)
-MouseClick("left",319,416,1)
-Send("{CTRLDOWN}v{CTRLUP}")
-;MouseClick("left",483,481,1) ---- This is for HP Laptop
-MouseClick("left",505,447,1)
+;_WinWaitActivate("File Upload","Namespace Tree Contr")
+;--Firefox--MouseClick("left",315,450,1)
+;----MouseClick("left",319,416,1)
+;Chrome-->
+_WinWaitActivate("Open","")
+MouseClick("left",233,446,1)
+Send("{CTRLDOWN}v{CTRLUP}{ENTER}")
 
 Func ReadExposurePath()
    ;MsgBox($MB_SYSTEMMODAL, "Title", "Inside Example.", 10)

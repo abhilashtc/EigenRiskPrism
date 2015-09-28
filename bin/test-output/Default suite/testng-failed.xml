@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.eigenRisk.TestSuite.Top_N_DataValidation">
+      <class name="com.eigenRisk.TestSuite.Exposure_Drive">
         <methods>
-          <include name="beforeTest"/>
-          <include name="accumulationSummary_51_Records_2015"/>
-          <include name="closeBrowser"/>
           <include name="openBrowser"/>
+          <include name="beforeTest"/>
+          <include name="ExposureDrive_ImportExposure"/>
           <include name="afterTest"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.eigenRisk.TestSuite.Top_N_DataValidation -->
+      </class> <!-- com.eigenRisk.TestSuite.Exposure_Drive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

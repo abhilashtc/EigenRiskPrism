@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <!--<suite name="Suite" parallel="methods" thread-count ="2"> -->
 <suite name="Currency Validation" parallel="tests" thread-count="1">
-<!--
   <test name="Evaluate TIV For Each Assets">
     <parameter name="userName" value="qa_user1@eigenrisk.com" />
     <classes>
@@ -83,7 +82,7 @@
 	  </class>
     </classes>
   </test>
-  -->
+ 
   <test name="Evaluate TIV and AssetNum 51 Records 2011">
     <parameter name="userName" value="qa_user1@eigenrisk.com" />
     <classes>
@@ -94,7 +93,6 @@
 	  </class>
     </classes>
   </test>
-  <!--
   <test name="Evaluate TIV and AssetNum 51 Records 2012">
     <parameter name="userName" value="qa_user1@eigenrisk.com" />
     <classes>
@@ -125,5 +123,4 @@
 	  </class>
     </classes>
   </test>
-  -->
 </suite>

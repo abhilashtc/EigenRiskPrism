@@ -15,6 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.eigenRisk.Utilities.CommonUtilities;
 import com.thoughtworks.selenium.webdriven.commands.GetText;
 
 public class LoginToPrism {
@@ -101,6 +102,9 @@ public class LoginToPrism {
 		System.out.println(pageTitle);
 		
 		try {
+			System.out.println("Inside Try Block ~ login");
+			String importNewExposureXpath = CommonUtilities.readElement("locatorPaths.properties", "importNewExposureXpath");
+			CommonUtilities.waitForElementToLoad(driver, "");
 			ProgramBuilder.waitForElementToLoad(driver, (ProgramBuilder.readElement("locatorPaths.properties","loginError")));
 			WebElement logoName = driver.findElement(By.xpath(ProgramBuilder.readElement("locatorPaths.properties","loginError")));
 			int logoExist = logoName.getText().length();

@@ -138,6 +138,7 @@ public class DamageModelManager {
 		
 		
 		//Selecting Source
+		System.out.println("Selecting Source");
 		String DMM_DamageModel_Add_Source = readElement("locatorPaths.properties","DMM_DamageModel_Add_Source");
 		List <WebElement> sList = driver.findElements(By.xpath(DMM_DamageModel_Add_Source));
 		System.out.println(sList.size());
@@ -149,16 +150,17 @@ public class DamageModelManager {
 			if (sName.equals(sourceName)) {
 				System.out.println(x + "th Element " + sName + " matches " + sourceName);
 				pList.get(x).click();
-				System.out.println("Clicked on " + sourceName);
+				System.out.println("Clicked on ->" + sourceName);
 				break;
 			}
 		}
 		
-		
 		String DMM_DamageModelSave = readElement("locatorPaths.properties","DMM_DamageModelSave");
 		driver.findElement(By.xpath(DMM_DamageModelSave)).click();
+		System.out.println("Clicked on Save Button ->" + DMM_DamageModelSave);
 		
 		String msg = getNotificationText(driver);
+		System.out.println("Notification Message is ->" + msg);
 		
 		if (callingMethod.equals("ExistingModel")) {
 			String expectedMsg = "Damage Model Exists";
@@ -168,6 +170,7 @@ public class DamageModelManager {
 			String expectedMsg = "Damage Model '" + damageModelName + "' created successfully";
 			Assert.assertTrue(msg.equals(expectedMsg));
 		}
+		System.out.println("Test Case : PASSED");
 		
 	}
 	
@@ -230,7 +233,7 @@ public class DamageModelManager {
 		String expectedMsg = "Damage Model '" + dmgName + "' saved successfully";
 		Assert.assertTrue(notifMessage.equals(expectedMsg));
 		
-		
+		System.out.println("Test Case: PASSED");
 		
 	}
 	
@@ -311,6 +314,11 @@ public class DamageModelManager {
 		String DMM_DF_Save = readElement("locatorPaths.properties", "DMM_DF_Save");
 		waitForElementToLoad(driver, DMM_DF_Save);
 		driver.findElement(By.xpath(DMM_DF_Save)).click();
+		
+		String msg = getNotificationText(driver);
+		Assert.assertTrue(msg.equals("Damage Function '" + funcNumber + "' has been created."));
+		System.out.println("Damage Function '" + funcNumber + "' created Successfully.");
+		System.out.println("Test Case : PASSED");
 		
 	}
 	
@@ -724,6 +732,7 @@ public class DamageModelManager {
 			
 		String msg = getNotificationText(driver);
 		Assert.assertTrue(msg.equals("Successfully saved damage function graph data"));
+		System.out.println("Test Case : PASSED");
 		
 	}
 	
@@ -856,6 +865,13 @@ public class DamageModelManager {
 		//Clicking on Save Button
 		String DMM_DF_Edit_Save = readElement("locatorPaths.properties", "DMM_DF_Edit_Save");
 		driver.findElement(By.xpath(DMM_DF_Edit_Save)).click();
+		
+		String msg = getNotificationText(driver);
+		
+		Assert.assertTrue(msg.equals("Damage Function '3' has been saved."));
+		System.out.println("Damage Function '" + funcNumber + "' saved Successfully.");
+		System.out.println("Test Case : PASSED");
+		
 		
 /*		
 		String DMM_DF_Edit_FunctionNum = driver.findElement(By.xpath(DMM_DF_Edit_FunctionNum)).getText();

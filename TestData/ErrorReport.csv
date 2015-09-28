@@ -1,0 +1,11 @@
+Source,Target,Erroneous Value,rowNumber,errorMessage
+valuation currency,VALUATION_CURRENCY_CODE,ABHI,65,Length of string greater than allocated length 1
+asset number,ASSET_NUMBER,A511,66,
+asset number,ASSET_NUMBER,A511,67,
+asset number,ASSET_NUMBER,01/01/2011,67,Duplicate <Asset number, Valuation Date> combination
+asset number,ASSET_NUMBER,,68,Mandatory Field
+asset schedule name,Asset Schedule Name,,68,Length of string greater than allocated length 500
+valuation date,VALUATION_DATE,40909,71,Invalid Date Format
+valuation date,VALUATION_DATE,41234,72,Invalid Date Format
+valuation date,VALUATION_DATE,42380,70,Invalid Date Format
+valuation date,VALUATION_DATE,Jan/11/2016,69,Invalid Date Format
