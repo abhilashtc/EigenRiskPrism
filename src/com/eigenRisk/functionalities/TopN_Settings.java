@@ -144,7 +144,7 @@ public class TopN_Settings extends AccumulationSummary{
 			}
 			else {
 				org.eigenrisk.testlab.Log.info("Test Case - FAILED");
-				System.out.println("Test Case - FAILED");
+				//System.out.println("Test Case - FAILED");
 			}
 			Assert.assertTrue(sMeasures[x].equals(selectedMeasures.get(x).getText()));
 			//org.eigenrisk.testlab.Log.info(selectedMeasures.get(x).getText() + " -----------> " + sMeasures[x]);
@@ -645,12 +645,13 @@ public class TopN_Settings extends AccumulationSummary{
 				}
 			}
 		}
-		else
+		else {
 			org.eigenrisk.testlab.Log.info("Test Case - FAILED");
+		}
 		
 		if (flagCount != 3) {
 			org.eigenrisk.testlab.Log.info("Test Case - FAILED");
-			System.out.println("Test Case - FAILED");
+			//System.out.println("Test Case - FAILED");
 		}
 		System.out.println("Flag Count is " + flagCount);
 		

@@ -84,16 +84,16 @@ public class Exposure_Drive {
 	public void closeBrowser() throws Exception {
 		System.out.println("\n--------------------------------END------------------------->>");
 		Thread.sleep(200);
-		driver.quit();
+		//driver.quit();
 		Thread.sleep(500);
 	}
 	
 	
 
 	@Parameters({"userName"})
-	@Test(priority = 1, enabled=true)
-	public void ExposureDrive_ImportExposure() throws Exception {
-		System.out.println("TEST CASE NAME -> Evaluate_TIV_and_AssetNum_51_Records_2014");
+	@Test(priority = 1, enabled=false)
+	public void ExposureDrive_ImportExposure_PositiveScenarios() throws Exception {
+		System.out.println("TEST CASE NAME -> ExposureDrive_ImportExposure_PositiveScenarios");
 
 		String loginID = "abhilashtc@eigenrisk.com";
 		LoginToPrism.login(driver,loginID,"eigenriskQA@123");
@@ -101,10 +101,57 @@ public class Exposure_Drive {
 		
 //		String exposureFile = "51_Records.xlsx";
 		String exposureFile = "NegativeScenarioFile.xlsx";
-		ExposureDrive.importExposure(driver,exposureFile);
+		String configName = "Abhi_ALL_Fields";
+		ExposureDrive.importExposure(driver,exposureFile, configName);
 		
 	}
 	
+	
+	// Negative Scenarios Covered are 
+	@Parameters({"userName"})
+	@Test(priority = 5, enabled=true)
+	public void ExposureDrive_ImportExposure_NegativeScenarios() throws Exception {
+		System.out.println("TEST CASE NAME -> ExposureDrive_ImportExposure_NegativeScenarios");
+		/*
+		 * mandatory fields for 2-3 assets and make them null
+		 * Date - few rows should have yyyyy and dd/mm/yyyy format
+		 * Numbers - few numeric fields should have characters
+		 * for character field, enter 3 characters for few rows. Soil type
+		 * make duplicate entries for asset number field
+		 * Valuation Date - dd/mm/yyyy, Currency (4)- currency conversion should happen accordingly, - Incase of garbage currency, it should show Unknown Change currency from USD to EUR
+	Country code (3)
+		 */
+		String loginID = "abhilashtc@eigenrisk.com";
+		LoginToPrism.login(driver,loginID,"eigenriskQA@123");
+		System.out.println(driver.getTitle());
+		
+//		String exposureFile = "51_Records.xlsx";
+		String exposureFile = "NegativeScenarioFile.xlsx";
+		String configName = "Abhi_All_Fields";
+		ExposureDrive.selectConfig = "true";
+		ExposureDrive.importExposure(driver,exposureFile, configName);
+		
+	}
+	
+
+	@Parameters({"userName"})
+	@Test(priority = 15, enabled=false)
+	public void CreateNewConfig() throws Exception {
+		System.out.println("TEST CASE NAME -> ConfigFileCreation");
+
+		String loginID = "abhilashtc@eigenrisk.com";
+		LoginToPrism.login(driver,loginID,"eigenriskQA@123");
+		System.out.println(driver.getTitle());
+		
+		String exposureFile = "51_Records.xlsx";
+		//ExposureDrive.importExposure(driver,exposureFile);
+		String configName = "Abhi_All_Fields";
+		ExposureDrive.selectConfig = "false";
+		ExposureDrive.selectExposureFile(driver, exposureFile, configName);
+		ExposureDrive.selectConfig = "true";
+		
+		ExposureDrive.createConfig(driver);
+	}
 	
 	@Parameters({"userName"})
 	@Test(priority = 55, enabled=false)

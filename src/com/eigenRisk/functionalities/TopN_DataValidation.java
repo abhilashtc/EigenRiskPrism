@@ -70,19 +70,37 @@ public class TopN_DataValidation {
 	}
 	
 	public static File lastFileModified(String dir) {
+		System.out.println("Inside lastFileModified");
 	    File fl = new File(dir);
 	    File[] files = fl.listFiles(new FileFilter() {          
 	        public boolean accept(File file) {
 	            return file.isFile();
 	        }
 	    });
+	    
 	    long lastMod = Long.MIN_VALUE;
 	    File choice = null;
-	    for (File file : files) {
-	        if (file.lastModified() > lastMod && file.getName().startsWith("Top N Report")) {
-	            choice = file;
-	            lastMod = file.lastModified();
-	        }
+	    System.out.println("Before Try");
+	    int x = 1;
+	    try {
+		    for (File file : files) {
+		    	try {
+		    		System.out.println("Before IF " + x++  + " " + file.getName());
+			        if (file.lastModified() > lastMod && file.getName().startsWith("Top N Report")) {
+			        	System.out.println("Inside IF ");
+			            choice = file;
+			            lastMod = file.lastModified();
+			        }
+		    	}
+		    	catch (Exception e) {
+			    	System.out.println("Returning NULL...");
+			    	return choice;
+			    }
+		    }
+	    }
+	    catch (Exception e) {
+	    	System.out.println("Returning NULL...");
+	    	return choice;
 	    }
 	    return choice;
 	}
@@ -501,6 +519,43 @@ public class TopN_DataValidation {
 		TopN_Settings.click_Settings(driver, "TopN");
 		TopN_Settings.removeMultipleMeasures(driver, "Damage (%)", "Intensity", "Ground Up Loss", "TopN");
 		TopN_Settings.validateFlag = true;
+	}
+	
+	
+	public static boolean exportToExcel(WebDriver driver) throws Exception {
+		//Obtaining the current "Top N Report" from the download location
+		String userName = System.getProperty("user.name");
+		String downloadLocation  = "C:\\Users\\" + userName + "\\Downloads";
+		System.out.println("Download Location -> " + downloadLocation);
+		File currentFile = lastFileModified(downloadLocation);
+		System.out.println("Current File Name is -> " + currentFile.getName());
+		String currentFileName = currentFile.getName();
+		
+		//Clicking on the Export to Excel
+		String TopN_ExportToExcel = CommonUtilities.readElement("", "TopN_ExportToExcel");
+		driver.findElement(By.xpath(TopN_ExportToExcel)).click();
+		System.out.println("Clicked on Export to Excel ->" + TopN_ExportToExcel);
+		Thread.sleep(5000);
+		
+		boolean flag = true;
+		while(true) {
+			//Obtaining the latest "Top N Report" from the download location
+			File latestFile = lastFileModified(downloadLocation);
+			System.out.println("Latest File Name is -> " + latestFile.getName());
+			String latestFileName = latestFile.getName();
+			System.out.println("#### " + currentFileName + " -- " + latestFileName);
+			
+			if(latestFileName.equals(currentFileName))
+				flag = false;
+			else {
+				System.out.println("New File ->" + latestFileName);
+				flag = true;
+				break;
+			}
+		}
+		
+		return flag;
+	
 	}
 	
 }

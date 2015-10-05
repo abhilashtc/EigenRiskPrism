@@ -42,6 +42,7 @@ public class Top_N_DataValidation {
 	Properties prop;
 	boolean openBrowser = true;
 	boolean signOutFlag = true;
+	String browser = "Chrome";
 	
 	@BeforeTest
 	public void beforeTest() throws Exception {
@@ -59,9 +60,19 @@ public class Top_N_DataValidation {
 			FileReader file = new FileReader("Config.properties");
 			prop = new Properties();
 			prop.load(file);
-			driver = SelectBrowser.selectBrowser(prop.getProperty("browser"));
+			
+			if(browser.equals("Chrome")) {
+				driver = SelectBrowser.selectBrowser("chrome");
+				System.out.println("Opening the Chrome Browser");
+				//browser = "Chrome";
+			}
+			else {
+				driver = SelectBrowser.selectBrowser(prop.getProperty("browser"));
+				LoginToPrism.handleFirefoxException();
+				System.out.println("Opening the Firefox Browser");
+			}
 			DOMConfigurator.configure("log4j.xml");
-			LoginToPrism.handleFirefoxException();
+			
 			System.out.println("-------------------------------START-------------------------->>");
 		}
 		//String loginID = "qa_user55@eigenrisk.com";
@@ -92,7 +103,7 @@ public class Top_N_DataValidation {
 	
 	@Parameters({"userName"})
 	@Test(priority = 1, enabled=true)
-	public void EvaluateTIV_ForEachAsset() throws Exception {
+	public void ExportTopN_ToExcel() throws Exception {
 		System.out.println("TEST CASE NAME -> EvaluateTIV_ForEachAsset");
 		//String loginID = "skmedikonda@eigenrisk.com";
 		//LoginToPrism.login(driver,loginID,"medikonda*MN#1");
@@ -129,6 +140,11 @@ public class Top_N_DataValidation {
 		TopN_Settings.removeMultipleMeasures(driver, "Damage (%)", "Intensity", "Ground Up Loss", "TopN");
 		TopN_Settings.validateFlag = true;
 		
+		boolean exportResult = TopN_DataValidation.exportToExcel(driver);
+		System.out.println("exportResult is -> " + exportResult);
+//		browser = "Firefox";
+		Assert.assertTrue(exportResult);
+		
 		//AccumulationSummary.printTable(driver);
 		
 		
@@ -136,7 +152,7 @@ public class Top_N_DataValidation {
 	}
 	
 	@Test(priority = 5, enabled=true)
-	public void EvaluateTopN_Assets() throws Exception {
+	public void EvaluateTIV_For_Top_100_Assets() throws Exception {
 		openBrowser = false;
 		TopN_DataValidation.EvaluateTopN_Assets();
 		openBrowser = true;
@@ -502,6 +518,10 @@ public class Top_N_DataValidation {
 		CommonUtilities.validateTIV_Assets_InAccuSummary(driver, "2014", "36", "90.8 M");
 		
 	}
+	
+	
+
+	
 	
 /*
 	@Parameters({"userName"})
